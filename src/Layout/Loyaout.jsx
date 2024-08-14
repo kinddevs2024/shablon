@@ -6,9 +6,12 @@ import Footer from './Footer'
 const Loyaout = ({children}) => {
   return (
     <>
-    <Header/>
+    <div className='bg-white dark:bg-gray-900 duration-300 text-black dark:text-white'>
+     <Header/>
     {children}
-    <Footer/>
+    <Footer/> 
+    </div>
+    
     </>
   )
 }

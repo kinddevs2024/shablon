@@ -40,7 +40,8 @@ export function Home() {
   ];
  
   return (
-    <div className="grid container  m-auto mt-10 mb-10 grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+    <div className="grid container bg-white dark:bg-gray-900 text-black dark:text-white   m-auto mt-10 mb-10 grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+      
       {data.map(({ imageLink }, index) => (
         <div key={index}>
           <img
